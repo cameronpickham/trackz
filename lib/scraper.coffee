@@ -73,7 +73,7 @@ class Scraper
 
 s = new Scraper(apiKey, username)
 db.collection('scrobbles').remove {}, (err) ->
-  s.get (err, data) ->
+  s.get (err) ->
     if err
       console.log err
       process.exit(1)

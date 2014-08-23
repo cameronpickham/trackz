@@ -1,0 +1,23 @@
+{
+  "name": "trackz",
+  "version": "0.0.0",
+  "description": "Doing things with the Last.fm API",
+  "main": "app.coffee",
+  "scripts": {
+    "test": "coffee app.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cameronpickham/trackz.git"
+  },
+  "author": "cameronpickham",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/cameronpickham/trackz/issues"
+  },
+  "dependencies": {
+    "request": "~2.40.0",
+    "async": "~0.9.0",
+    "mongoskin": "~1.4.4"
+  }
+}
